@@ -72,11 +72,7 @@ Se siguieron todos los pasos del pdf del laboratorio
 
 1. Agregando nuevas dependencias
 
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
+![Image text](https://github.com/CamiloCastiblanco/Lab5/blob/master/img/Dependencies.png)
 
 2. web.xml
 
@@ -84,39 +80,13 @@ Se siguieron todos los pasos del pdf del laboratorio
 
 3. Baking-bean
 
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
+![Image text](https://github.com/CamiloCastiblanco/Lab5/blob/master/img/CalculatorBean.png)
 
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
+4. guess.xhtml y guess_form
 
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
+![Image text](https://github.com/CamiloCastiblanco/Lab5/blob/master/img/guess_xhtml.png)
 
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
 
-4. guess.xhtml
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-5. guess_form
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-6. Haciendo pruebas
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
-
-![Image text](https://github.com/CamiloCastiblanco/CVDS/blob/master/Brayan_Castiblanco/OIP.jfif)
 
 
 
