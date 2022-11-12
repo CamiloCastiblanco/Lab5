@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+</h:head>
+<h:body>
+    <h:form id="calculadora_form" header="Calculator">
+        <h:panelGrid columns="2">
+            <p:outputLabel value="dataSet:" />
+            <p:inputText id="values" binding="#{input}" />
+            <p:outputLabel value="Mean:"/>
+            <p:outputLabel value="#{juego.mean}"/>
+            <p:outputLabel value="Standart Desviation:"/>
+            <p:outputLabel value="#{juego.standartDesviation}"/>
+            <p:outputLabel value="Variance:"/>
+            <p:outputLabel value="#{juego.variance}"/>
+            <p:outputLabel value="Mode:"/>
+            <p:outputLabel value="#{juego.mode}" style="display: none;"/>
+        </h:panelGrid>
+        <h:dataTable value="#{juego.attemp}" var="Attemps">
+            <h:column>
+                <f:facet name="header">
+                    <h:outputText value="Attemps"/>
+                </f:facet>
+                <h:outputText value="#{attemp}"/>
+            </h:column>
+        </h:dataTable>
+    </h:form>
+    <p:commandButton value="CALCULATE" update="calculadora_form" actionListener="#{juego.calculate(input.value)}"/>
+    <p:commandButton value="RESTART" update="calculadora_form" actionListener="#{juego.restart}"/>
+</h:body>
+</html>
